@@ -1,4 +1,4 @@
-# outlit-ai
+# Outlit
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-outlit-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://outlit.ai/
+Outlit Labs Inc. provides an AI‑powered platform that helps customer‑success teams monitor, engage, and grow their accounts. By aggregating data from CRM, billing, support, and communication tools, Outlit builds a unified customer history, flags at‑risk accounts, and suggests actions to retain and expand revenue. Backed by Y Combinator, the service offers integrations with Stripe, PostHog, Slack, Gmail, Salesforce, HubSpot, and more, delivering real‑time alerts and insights to drive proactive outreach and renewal preparation.
+
+**Areas:** AI · Customer Success · SaaS · Integration Platform · Y Combinator
+
+## Outlit on APIs.io
+
+Everything profiled for Outlit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/outlit-ai/](https://apis.io/providers/outlit-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Outlit Feedback API](https://apis.io/apis/outlit-ai/outlit-ai-feedback-api/) — The Feedback API from Outlit — 1 operation(s) for feedback.
+- [Outlit I API](https://apis.io/apis/outlit-ai/outlit-ai-i-api/) — The I API from Outlit — 1 operation(s) for i.
+- [Outlit Tools API](https://apis.io/apis/outlit-ai/outlit-ai-tools-api/) — The Tools API from Outlit — 1 operation(s) for tools.
+- [Outlit Validate Api Key API](https://apis.io/apis/outlit-ai/outlit-ai-validate-api-key-api/) — The Validate Api Key API from Outlit — 1 operation(s) for validate api key.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Outlit Agentic Access](https://apis.io/agentic-access/outlit-ai/outlit-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ToolOutput_outlit_get_customer](https://apis.io/schemas/outlit-ai/outlit-ai-tool-output-outlit-get-customer/)
+- [ToolOutput_outlit_get_source](https://apis.io/schemas/outlit-ai/outlit-ai-tool-output-outlit-get-source/)
+- [ToolOutput_outlit_list_customers](https://apis.io/schemas/outlit-ai/outlit-ai-tool-output-outlit-list-customers/)
+- [ToolOutput_outlit_list_merge_suggestions](https://apis.io/schemas/outlit-ai/outlit-ai-tool-output-outlit-list-merge-suggestions/)
+- [ToolOutput_outlit_list_people](https://apis.io/schemas/outlit-ai/outlit-ai-tool-output-outlit-list-people/)
+- [ToolOutput_outlit_search_customer_context](https://apis.io/schemas/outlit-ai/outlit-ai-tool-output-outlit-search-customer-context/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Outlit Ai Context](https://apis.io/jsonld/outlit-ai/outlit-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Outlit API Rules](https://apis.io/rules/outlit-ai/outlit-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Outlit Authentication](https://apis.io/security/outlit-ai/outlit-ai-authentication/)
+- [Outlit Domain Security](https://apis.io/security/outlit-ai/outlit-ai-domain-security/)
+- [Outlit Vulnerability Disclosure](https://apis.io/security/outlit-ai/outlit-ai-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.outlit.ai/)
+- [Documentation](https://docs.outlit.ai/)
+- [Getting started](https://docs.outlit.ai/getting-started/overview)
+- [API reference](https://docs.outlit.ai/api-reference/introduction)
+- [Support](https://www.outlit.ai/support)
+- [Changelog](https://www.outlit.ai/changelog)
+- [Blog](https://www.outlit.ai/blog)
+- [Security](https://www.outlit.ai/terms)
+- [Terms of service](https://www.outlit.ai/terms)
+- [Privacy policy](https://www.outlit.ai/privacy)
+- [GitHub](https://github.com/OutlitAI)
+- [Status](https://status.outlit.ai/)
+
+## API Evangelist rating
+
+**Kin Score 53.0** — developing · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 56.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 42.9 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 17.0 |
+
+**Agent readiness 58.5** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/outlit-ai/](https://apis.io/providers/outlit-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Outlit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/outlit-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
